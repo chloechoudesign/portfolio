@@ -1,13 +1,9 @@
 @media only screen {
   /* Styles */
   body {
-    font-family: "Varta", sans-serif;
-    color: #202020;
     margin: 0;
     padding: 0;
-    font-size: 1em;
-    line-height: 2em;
-    background-color: #FFFDFB;
+    background-color: #FFFEFC;
   }
 
   html {
@@ -15,17 +11,14 @@
   }
 
   ::-moz-selection { 
-    background: rgba(209, 85, 52, 0.7); 
+    background: rgba(209, 85, 52, 0.3); 
   }
   
   ::selection { 
-    background: rgba(209, 85, 52, 0.7); 
+    background: rgba(209, 85, 52, 0.3); 
   }
 
   /* Shared font styles */
-
-
-
   .page-header {
     font-size: 2.2em;
     /* font-weight: bold; */
@@ -33,7 +26,7 @@
     font-family: "Playfair Display", serif;
     letter-spacing: 0.01em;
   }
-
+  
   .content {
     position: relative;
     max-width: 800px;
@@ -48,14 +41,12 @@
     position: relative;
     font-family: "Varta", sans-serif;
   }
-
+  
   .paragraph {
     margin-top: 30px;
     color: #606060;
   }
-
- 
-
+  
   .small-header {
     font-size: 1.1em;
     font-weight: 600;
@@ -106,7 +97,6 @@
   }
 
   /* Images */
-
   .img-800 {
     max-width: 800px;
     margin-left: auto;
@@ -137,7 +127,6 @@
   }
 
   /* Flex */
-
   #horizontal-flex {
     display: flex;
     flex-direction: row;
@@ -170,51 +159,12 @@
     text-align: left;
   }
 
-  /* Footer */
-  #footer {
-    font-family: 'Karla', sans-serif;
-    display: flex;
-    flex-direction: column;
-    width: 65vw;
-    justify-content: flex-start;
-    font-weight: 400;
-    color: #606060;
-    line-height: 1.8em;
-    height: 250px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 30px;
-  }
-
-
-.footer-blurb {
-    max-width: 400px;
-  }
-
-  .contact-link {
-    color: #202020;
-    font-weight: 600;
-    text-decoration: underline;
-    cursor: pointer;
-    font-size: 1.15em;
-  }
-
   .margin-right-30 {
     margin-right: 30px;
   }
 
   .margin-right-20 {
     margin-right: 20px;
-  }
-
-  #footer-title {
-    font-size: 1.7em;
-    font-weight: 500;
-    min-width: 150px;
-    margin-bottom: 20px;
-    letter-spacing: 0.01em;
-    color: #202020;
-    font-family: "Playfair Display", serif;
   }
 
   hr {
@@ -251,7 +201,6 @@
   }
 
   /* Images */
-
   .img-800 {
     max-width: 300px;
     margin-left: auto;
@@ -265,28 +214,7 @@
   }
 
   /* Footer */
-
   #footer {
-    display: flex;
-    flex-direction: column;
-    width: 360px;
-    font-size: 1em;
-    font-weight: 300;
-    color: #606060;
-    line-height: 1.8em;
     margin-bottom: 50px;
   }
-
-  #footer div {
-    max-width: 360px;
-  }
-
-  hr {
-    max-width: 100vw !important;
-  }
-
-  #footer-title {
-    font-size: 1.5em;
-  }
-
 }

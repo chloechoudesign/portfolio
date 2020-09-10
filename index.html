@@ -3,28 +3,26 @@
 
 <head>
   <!-- Google Fonts -->
-  <link
-    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+  <link 
+    href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap" 
     rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css2?family=Varta:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
-
+  
   <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
   <link rel="stylesheet" type="text/css" href="assets/css/index.css" />
   <link rel="stylesheet" type="text/css" href="assets/css/nav.css" />
   <meta name="viewport" content="width=device-with,initial-scale=1.0" />
-  <!-- <link rel="icon" type="image/png" href="assets/img/fav.png" /> -->
+  <link rel="icon" type="image/png" href="assets/img/fav.png" />
   <meta charset="UTF-8">
   <title>Chloe Chou</title>
 </head>
 
 <body>
-  <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+  <!-- Hamburger menu -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 
-  <div>
+  <!-- <div>
     <a href="index.html" id="logo">C</a>
-  </div>
+  </div> -->
 
   <div class="topnav" id="myTopnav">
     <div class="margin-right-20">
@@ -38,24 +36,25 @@
   </div>
 
   <div id="home-container">
+
+    <!-- Intro -->
     <div class="intro-container">
-      <div class="landing-blurb name">
-        &#128075; Hello, I'm Chloe.
+      <div class="hero name">
+        Hello, I'm Chloe.
       </div>
-      <div class="landing-blurb value-prop">
+      <div class="hero value-prop">
         I am a digital product designer with a passion to create pixel perfect, intuitive
         and meaningful experiences.
       </div>
     </div>
 
-    <div class="feat-proj-container">
+    <!-- Featured Projects -->
+    <div class="proj-container">
       <div class="section-title">Featured Projects</div>
-      <div class="section-caption">Here's a few handpicked case studies for your inspiration.
-        <br><a class="landing-link" href="#"> See all projects here</a>.</div>
-
-      <div class="feat-proj-grid">
+      <div class="section-caption">Here's a few handpicked case studies for your inspiration.</div>
+      <div class="proj-grid">
         <a href="#" class="proj-link">
-          <div class="feat-proj-card">
+          <div class="proj-card">
             <img src="assets/img/parkever.jpg" />
             <div>
               <div class="card-title">Garden Fresh</div>
@@ -64,7 +63,7 @@
           </div>
         </a>
         <a href="#" class="proj-link">
-          <div class="feat-proj-card">
+          <div class="proj-card">
             <img src="assets/img/poppy.jpg" />
             <div>
               <div class="card-title">Department of Education</div>
@@ -73,7 +72,7 @@
           </div>
         </a>
         <a href="#" class="proj-link">
-          <div class="feat-proj-card">
+          <div class="proj-card">
             <img src="assets/img/compass.jpg" />
             <div>
               <div class="card-title">Compass</div>
@@ -84,67 +83,57 @@
       </div>
     </div>
 
-    <div class="feat-proj-container">
+    <!-- Development Projects -->
+    <div class="proj-container">
       <div class="section-title">My Developer Hat 👩‍💻</div>
       <div class="section-caption">
-        I specialize in front-end web technologies. Some of my skills are React, JavaScript, jQuery, HTML, CSS, and
-        Responsive Design.<br>
-        <a class="landing-link" target="_blank" href="https://github.com/chloechoudesign">Check out my GitHub here.</a>
+        I like to code things from scratch, and enjoy bringing ideas to life in the browser. Check out my <a class="landing-link" target="_blank" href="https://github.com/chloechoudesign">GitHub</a> for more coding projects.
       </div>
 
-      <div class="feat-proj-grid">
+      <div class="proj-grid">
         <a href="#" class="proj-link">
-          <div class="feat-proj-card">
+          <div class="proj-card">
             <img src="assets/img/psychic.jpg" />
             <div>
               <div class="card-title">Psychic Game</div>
-              <div class="card-description">A simple letter guessing game features dynamically updated
-                HTML powered by JavaScript code.</div>
+              <div class="card-description">JavaScript letter guessing game</div>
             </div>
           </div>
         </a>
         <a href="#" class="proj-link">
-          <div class="feat-proj-card">
+          <div class="proj-card">
             <img src="assets/img/mongo.jpg" />
             <div class="info">
               <div class="card-title">Mongo Scraper</div>
-              <div class="card-description">A web application that utilizes Mongoose
-                and Cheerio to scrape articles from InVision Blog.</div>
+              <div class="card-description">A web-scraping app developed using Mongoose and Cheerio</div>
             </div>
           </div>
         </a>
         <a href="#" class="proj-link">
-          <div class="feat-proj-card">
+          <div class="proj-card">
             <img src="assets/img/nyt.jpg" />
             <div class="info">
-              <div class="card-title">React NYT Search</div>
-              <div class="card-description">This application utilizes The New York Times API to search and display news
-                articles using React and React router.</div>
+              <div class="card-title">NYT React Search</div>
+              <div class="card-description">A React app that uses the New York Times API to retrieve news articles</div>
             </div>
           </div>
         </a>
       </div>
     </div>
 
-    
+    <!-- Footer -->
     <div id="footer">
       <div>
         <div id="footer-title">Thanks for scrolling!</div>
-        <div class="section-caption">If you're interested in working together, or just saying hello, <a
-            class="landing-link">I'd love to chat :)</a></div>
+        <div class="section-caption">If you're interested in working together, or just saying hello, <a class="landing-link">I'd love to chat :)</a></div>
       </div>
       <div>
-        <a class="contact-link margin-right-20">LinkedIn</a>
-        <a class="contact-link margin-right-20">Dribbble</a>
-        <a class="contact-link">Resume</a>
+        <a href="" class="social-link">LinkedIn</a> / 
+        <a href="" class="social-link">Dribbble</a> / 
+        <a href="" class="social-link">Resume</a> 
       </div>
     </div>
   </div>
-
-
-
-
-
 
 
 
