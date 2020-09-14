@@ -2,7 +2,8 @@
   body {
     margin: 0;
     padding: 0;
-    font-size: 16px;
+    font-size: 1em;
+    background-color: #f6f6f6;
   }
 
   #home-container {
@@ -13,34 +14,45 @@
   }
 
   .intro-container {
-    width: 65vw;
     position: relative;
     margin-left: auto;
     margin-right: auto;
+    width: 70vw;
+    height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 80vh;
   }
 
-  .hero {
-    font-family: "Playfair Display", serif;
-    font-weight: 400;
-    font-size: 2.1em;
-    line-height: 1.4em;
-    color: #333;
-    letter-spacing: 0.01em;
-    max-width: 800px;
-  }
-
-  .name {
-    font-weight: 500;
-    color: #EE4826;
+  .value-prop {
+    font-family: 'DM Serif Display', serif;
+    font-size: 3.7em;
+    line-height: 1.3em;
+    letter-spacing: 0.03em;
     margin-bottom: 20px;
   }
 
+  #prop-line-1 {
+    margin: 0;
+  }
+
+  #prop-line-2 {
+    margin: 0;
+    color: #068466;
+  }
+
+  .intro {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 1.1em;
+    font-weight: 400;
+    line-height: 2em;
+    color:#707070;
+    letter-spacing: 0.01em;
+    max-width: 650px;
+  }
+
   .proj-container {
-    width: 65vw;
+    width: 70vw;
     height: auto;
     position: relative;
     margin-left: auto;
@@ -49,35 +61,27 @@
   }
 
   .section-title {
-    font-family: "Playfair Display", serif;
-    font-size: 1.5em;
-    font-weight: 500;
-    color: #333;
-    letter-spacing: 0.01em;
-    min-width: 150px;
-    margin-bottom: 15px;
-  }
-  
-  .section-caption {
+    /* position */
     position: relative;
-    font-family: 'Jost', sans-serif;
-    color: #707070;
-    font-weight: 400;
-    font-size: 1.12em;
-    line-height: 1.6em;
     margin-bottom: 40px;
-    max-width: 650px;
+    /* style */
+    font-family: 'Oxygen', sans-serif;
+    color: #a8a8a8;
+    font-weight: 400;
+    font-size: 0.9em;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
   }
 
   .proj-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
-    column-gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    column-gap: 3rem;
   }
 
   .proj-link {
     text-decoration: none;
-    color: #333;
+    color: #2c2d36;
   }
 
   .proj-card img{
@@ -94,33 +98,37 @@
   }
 
   .card-title {
-    font-family: 'Jost', sans-serif;
-    font-size: 1.2em;
-    font-weight: 400;
-    line-height: 2em;
+    font-family: 'DM Serif Display', serif;
+    font-size: 1.5em;
+    letter-spacing: 0.03em;
+    line-height: 1.6em;
     margin-top: 15px;
+    margin-bottom: 10px;
   }
 
   .card-description {
     position: relative;
-    font-family: 'Jost', sans-serif;
+    margin-bottom: 50px;
+    font-family: 'Oxygen', sans-serif;
     color: #707070;
     font-weight: 400;
-    font-size: 1.1em;
+    font-size: 1em;
     line-height: 1.6em;
-    margin-bottom: 40px;
   }
 
   .landing-link {
-    font-family: 'Jost', sans-serif;
+    position: relative;
+    font-family: 'Oxygen', sans-serif;
     font-size: 0.95em;
-    color: #333;
-    font-weight: 500;
+    color: #2c2d36;
+    font-weight: 700;
     cursor: pointer;
     text-decoration: none;
+    padding: 4px; 
+    /* border */
     border-style: solid;
-    border-color: #EE4826;
-    border-width: 2px;
+    border-color: #068466;
+    border-width: 3px;
     border-bottom: 10;
     border-left: none;
     border-right: none;
@@ -128,14 +136,15 @@
   }
 
   .landing-link:hover {
-    background-color: #EE4826;
+    background-color: #068466;
     color: white;
+    transition: .15s linear;
   }
 
   #footer {
     display: flex;
     flex-direction: column;
-    width: 65vw;
+    width: 70vw;
     justify-content: flex-start;
     height: 250px;
     margin-left: auto;
@@ -144,22 +153,32 @@
   }
 
   #footer-title {
-    font-family: "Playfair Display", serif;
-    font-size: 1.5em;
-    font-weight: 500;
-    min-width: 150px;
+    font-family: 'DM Serif Display', serif;
+    font-size: 1.9em;
     margin-bottom: 20px;
     letter-spacing: 0.01em;
-    color: #333;
+    color: #2c2d36;
+  }
+
+  .footer-caption {
+    position: relative;
+    font-family: 'Oxygen', sans-serif;
+    color: #707070;
+    font-weight: 400;
+    font-size: 1.1em;
+    line-height: 2em;
+    margin-bottom: 40px;
+    max-width: 650px;
   }
 
   .social-link {
-    font-family: 'Jost', sans-serif;
-    font-size: 1.05em;
-    color: #333;
-    font-weight: 500;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 1em;
+    color: #2c2d36;
+    font-weight: 400;
     cursor: pointer;
     text-decoration: underline;
+    
   }
 }
   
@@ -167,12 +186,11 @@
 @media only screen and (max-width: 600px) {
   html,
   body {
-    max-width: 600px;
+    /* max-width: 600px; */
     overflow-x: none;
   }
 
   #home-container {
-    max-width: 360px;
     position: relative;
     margin-left: auto;
     margin-right: auto;
@@ -190,11 +208,9 @@
     justify-content: center;
   }
 
-  .hero {
-    font-size: 2em;
-    letter-spacing: 0;
-    line-height: 1.4em;
-    max-width: 360px;
+  .value-prop {
+    max-width: 300px;
+    font-size: 3.3em;
   }
 
   .proj-container {
@@ -203,5 +219,6 @@
 
   #footer {
     width: 88%;
+    margin-bottom: 50px;
   }
 }
