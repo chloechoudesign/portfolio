@@ -86,7 +86,7 @@
   }
 
   .proj-card img{
-    transition: transform 0.3s;
+    transition: all .3s ease-in-out;
   }
 
   .proj-card img:hover {
@@ -135,12 +135,12 @@
     border-left: none;
     border-right: none;
     border-top: none;
+    transition: all .3s ease-in-out;
   }
 
   .landing-link:hover {
     background-color: #068466;
     color: white;
-    transition: .15s linear;
   }
 
   #footer {

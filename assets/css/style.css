@@ -1,0 +1,287 @@
+@media only screen {
+  /* Styles */
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  html {
+    min-height: 100%;
+  }
+
+  /* Spacing */
+  .spacing-100 {
+    height: 100px;
+  }
+  .spacing-80 {
+    height: 80px;
+  }
+  .spacing-60 {
+    height: 60px;
+  }
+  .spacing-50 {
+    height: 50px;
+  }
+  .spacing-30 {
+    height: 30px;
+  }
+  .spacing-20 {
+    height: 20px;
+  }
+  .spacing-10 {
+    height: 10px;
+  }
+
+  /* Images */
+  .img-800 {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  }
+  .img-800 img {
+    max-width: 800px;
+    vertical-align: middle;
+  }
+  .img-650 {
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  }
+  .img-650 img {
+    max-width: 650px;
+    vertical-align: middle;
+  }
+
+  /* Columns */
+   #left-split {
+    width: 200px;
+    margin-right: 50px;
+  }
+
+  #right-split {
+    width: 650px;
+  }
+
+  .two-columns {
+    max-width: 650px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .left-half-200 {
+    max-width: 180px;
+  }
+
+  .left-half-200 img {
+    max-width: 180px;
+  }
+
+  .right-half-400 {
+    width: 400px;
+    margin-left: 40px;
+  }
+
+  .right-half-400 img {
+    max-width: 400px;
+    margin-left: 40px;
+  }
+
+  .left-half-300 {
+    max-width: 300px;
+  }
+
+  .left-half-300 img {
+    max-width: 300px;
+  }
+
+  .right-half-300 {
+    max-width: 380px;
+    margin-left: 50px;
+  }
+
+  .right-half-300 img {
+    max-width: 300px;
+  }
+
+  /* Video */
+  .video-650 {
+    display: block;
+    max-width: 648px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    border-bottom: none;
+    -webkit-box-sizing: unset;
+    -moz-box-sizing: unset;
+    box-sizing: unset;
+  }
+  .video-650 video {
+      margin-left: auto;
+      margin-right: auto;
+      position: relative;
+      max-width: 648px;
+      display: block;
+  }
+  .video-400 {
+      display: block;
+      max-width: 400px;
+      margin-left: auto;
+      margin-right: auto;
+      position: relative;
+      border-bottom: none;
+      -webkit-box-sizing: unset;
+      -moz-box-sizing: unset;
+      box-sizing: unset;
+  }
+  .video-400 video {
+      margin-left: auto;
+      margin-right: auto;
+      position: relative;
+      max-width: 400px;
+      display: block;
+  }
+  video {
+      display: block;
+      background: transparent;
+      border-style: none;
+      margin: 0;
+      overflow: hidden;
+  }
+  .video-250 {
+      display: block;
+      max-width: 250px;
+      margin-left: auto;
+      margin-right: auto;
+      position: relative;
+      height: 486px;
+      overflow-y: hidden;
+  }
+  .video-250 video {
+      margin-left: auto;
+      margin-right: auto;
+      position: relative;
+      max-width: 250px;
+      display: block;
+  }
+  #nw-video {
+      border-style: solid;
+      border-width: 1px;
+      border-color: #bdbdbd;
+  }
+
+  /* Flex */
+  #horizontal-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #vertical-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #vertical-flex {
+    width: 700px;
+    border-style: solid;
+  }
+
+  #center-text {
+    text-align: center;
+  }
+
+  #left-text {
+    text-align: left;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1000px) {
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    min-height: 100%;
+  }
+
+  #horizontal-flex {
+    top: 0px;
+    margin-top: 0;
+    width: 100vw;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* Images */
+
+  .img-650 {
+    max-width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  }
+
+  .img-650 img {
+    max-width: 360px;
+    vertical-align: middle;
+  }
+
+  /* Footer */
+
+  hr {
+    max-width: 100%;
+  }
+
+  #footer {
+    display: flex;
+    flex-direction: column;
+    max-width: 360px;
+    font-size: 0.9em;
+    font-weight: 300;
+    color: #202020;
+    line-height: 1.8em;
+    margin-bottom: 50px;
+  }
+
+  #footer div {
+    max-width: 100%;
+    height: auto;
+  }
+}
