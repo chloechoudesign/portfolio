@@ -2,8 +2,8 @@
   body {
     margin: 0;
     padding: 0;
-    font-size: 1em;
-    background-color: #f6f6f6;
+    font-size: 16px;
+    background-color: #f6eee3;
   }
 
   #home-container {
@@ -25,11 +25,11 @@
   }
 
   .value-prop {
-    font-family: 'DM Serif Display', serif;
-    font-size: 3.7em;
-    line-height: 1.3em;
-    letter-spacing: 0.03em;
-    color: #2C2D36;
+    font-family: 'Marcellus', serif;
+    color: #1f1717;
+    letter-spacing: -0.008em;
+    font-size: 5em;
+    font-weight: 400;
     margin-bottom: 20px;
   }
 
@@ -39,7 +39,6 @@
 
   #prop-line-2 {
     margin: 0;
-    color: #068466;
   }
 
   .intro {
@@ -47,7 +46,7 @@
     font-size: 1.1em;
     font-weight: 400;
     line-height: 2em;
-    color:#606060;
+    color:#4f4d49;
     letter-spacing: 0.01em;
     max-width: 650px;
   }
@@ -67,7 +66,7 @@
     margin-bottom: 40px;
     /* style */
     font-family: 'Oxygen', sans-serif;
-    color: #a8a8a8;
+    color: #1f1717;
     font-weight: 400;
     font-size: 0.9em;
     letter-spacing: 0.15em;
@@ -76,7 +75,7 @@
 
   .proj-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
     column-gap: 3rem;
   }
 
@@ -87,6 +86,7 @@
 
   .proj-card img{
     transition: all .3s ease-in-out;
+    border: rgba(0, 15, 11, 1) solid 1px;
   }
 
   .proj-card img:hover {
@@ -99,20 +99,19 @@
   }
 
   .card-title {
-    font-family: 'DM Serif Display', serif;
-    font-size: 1.5em;
-    letter-spacing: 0.03em;
+    font-family: 'Marcellus', serif;
+    color: #1f1717;
+    font-size: 1.7em;
     line-height: 1.6em;
     margin-top: 15px;
     margin-bottom: 8px;
-    color: #2C2D36;
-  }
+   }
 
   .card-description {
     position: relative;
     margin-bottom: 50px;
     font-family: 'Oxygen', sans-serif;
-    color: #606060;
+    color: #4f4d49;
     font-weight: 400;
     font-size: 1em;
     line-height: 1.6em;
@@ -129,7 +128,7 @@
     padding: 4px; 
     /* border */
     border-style: solid;
-    border-color: #068466;
+    border-color: #C7B9FF;
     border-width: 3px;
     border-bottom: 10;
     border-left: none;
@@ -139,7 +138,7 @@
   }
 
   .landing-link:hover {
-    background-color: #068466;
+    background-color: #C7B9FF;
     color: white;
   }
 
@@ -155,17 +154,16 @@
   }
 
   #footer-title {
-    font-family: 'DM Serif Display', serif;
-    font-size: 1.9em;
+    font-family: 'Marcellus', serif;
+    color: #1f1717;
+    font-size: 2em;
     margin-bottom: 20px;
-    letter-spacing: 0.01em;
-    color: #2c2d36;
   }
 
   .footer-caption {
     position: relative;
     font-family: 'Oxygen', sans-serif;
-    color: #606060;
+    color: #4f4d49;
     font-weight: 400;
     font-size: 1.1em;
     line-height: 2em;
@@ -176,7 +174,7 @@
   .social-link {
     font-family: 'Oxygen', sans-serif;
     font-size: 1em;
-    color: #2c2d36;
+    color: #1f1717;
     font-weight: 400;
     cursor: pointer;
     text-decoration: underline;
