@@ -1,2 +1,2 @@
-# New-Portfolio
-Link: http://chloechou.com/New-Portfolio/
+# portfolio
+Link: http://chloechou.com/portfolio/
