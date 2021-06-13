@@ -250,6 +250,16 @@
   }
 
   /* Images */
+  .img-800 {
+    max-width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  }
+  .img-800 img {
+    max-width: 360px;
+    vertical-align: middle;
+  }
 
   .img-650 {
     max-width: 360px;
