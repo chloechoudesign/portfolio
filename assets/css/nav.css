@@ -17,6 +17,7 @@
   color: #1f1717;
   text-decoration: none;
   letter-spacing: 0.03em;
+  height: 90px;
 }
 
 .topnav {
@@ -26,8 +27,8 @@
   width: 100vw;
   z-index: 5;
   /* style */
-  background-color: #f6eee3;
-  border-bottom: rgba(0, 15, 11, 1) solid 1px;
+  background-color: #f3eee8;
+  /*border-bottom: rgba(0, 15, 11, 1) solid 1.3px;*/
 }
 
 .topnav a {
@@ -76,16 +77,19 @@
 }
 
 @media screen and (max-width: 600px) {
+  #logo {
+    height: 40px;
+  }
 
   .topnav {
-    background-color: #f6eee3;
+    background-color: #f3eee8;
   }
   
   .topnav.responsive {
     width: 100vw;
     height: 100vh;
     position: fixed;
-    z-index: 100;
+    z-index: 1;
   }
 
   .topnav.responsive .icon {

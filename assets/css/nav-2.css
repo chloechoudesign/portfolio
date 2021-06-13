@@ -17,6 +17,7 @@
   color: #2c2d36;
   text-decoration: none;
   letter-spacing: 0.03em;
+  height: 90px;
 }
 
 .topnav {
@@ -26,8 +27,8 @@
   width: 100vw;
   z-index: 5;
   /* style */
-  background-color: #ffffff;
-  border-bottom: rgba(44, 45, 54, 0.1) solid 1px;
+  background-color: #E6E7D7;
+  /*border-bottom: rgba(44, 45, 54, 0.1) solid 1px;*/
 }
 
 .topnav a {
@@ -39,7 +40,7 @@
   /* style */
   font-family: 'Oxygen', sans-serif;
   font-weight: 400;
-  color: #a8a8a8;
+  color: #1f1717;
   text-decoration: none;
   font-size: 1em;
   letter-spacing: 0.02em;
@@ -67,7 +68,7 @@
   .topnav a.icon {
     float: right;
     display: block;
-    color:#2c2d36;;
+    color:#1f1717;
   }
 
   #logo {
@@ -76,9 +77,12 @@
 }
 
 @media screen and (max-width: 600px) {
+  #logo {
+    height: 40px;
+  }
 
   .topnav {
-    background-color: #ffffff;
+    background-color: #E6E7D7;
   }
   
   .topnav.responsive {

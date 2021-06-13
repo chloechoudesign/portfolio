@@ -2,7 +2,7 @@
   body {
     margin: 0;
     padding: 0;
-    background-color: #ffffff;
+    background-color: #E6E7D7;
   }
   
   .proj-container {
@@ -21,7 +21,7 @@
     text-align: left;
     /* font style */
     font-family: 'Oxygen', sans-serif;
-    color: #606060;
+    color: #1f1717;
     font-size: 0.98em;
     line-height: 2em;
   }
@@ -37,12 +37,12 @@
 
   /* PROJECT OVERVIEW */
   .proj-name {
-    font-family: 'DM Serif Display', serif;
-    font-size: 1.8em;
+    font-family: 'Marcellus', serif;
+    font-size: 3em;
     line-height: 1.3em;
     min-width: 150px;
     margin-bottom: 20px;
-    color: #068466;
+    color: #1f1717;
   }
 
   .proj-info-container {
@@ -51,8 +51,9 @@
 
   .proj-info-title {
     font-family: 'Oxygen', sans-serif;
+    font-size: 1.1em;
     font-weight: 700;
-    color: #2c2d36;
+    color: #1f1717;
     line-height: 1.8em;
     letter-spacing: 0.01em;
     margin-top: 20px;
@@ -62,7 +63,7 @@
     position: relative;
     font-family: 'Oxygen', sans-serif;
     font-weight: 400;
-    color: #606060;
+    color: #4f4d49;
     line-height: 1.8em;
     letter-spacing: 0.01em;
   }
@@ -84,13 +85,13 @@
 
   /* SECTION */
   .section-title {
-    font-family: 'DM Serif Display', serif;
+    font-family: 'Marcellus', serif;
     font-size: 1.8em;
     line-height: 1.3em;
     min-width: 150px;
     margin-bottom: 20px;
     letter-spacing: 0.01em;
-    color: #2c2d36;
+    color: #1f1717;
     position: sticky;
     top: 120px;
   }
@@ -105,15 +106,15 @@
     min-width: 150px;
     margin-bottom: 10px;
     letter-spacing: 0.01em;
-    color: #2c2d36;
+    color: #1f1717;
     line-height: 1.6em;
   }
 
   .divider {
     border-style: solid;
     border-width: 0;
-    border-bottom-width: 0.5px;
-    border-color:	#D3D3D3;
+    border-bottom-width: 1px;
+    color: #1f1717;
     width: 100%;
     padding: 0;
   }
@@ -122,9 +123,9 @@
     font-family: 'Oxygen', sans-serif;
     font-style: italic;
     margin-top: 30px;
-    color: #606060;
+    color: #1f1717;
     padding: 30px;
-    border: #d3d3d3 solid 1px ;
+    border: #1f1717 solid 1px;
   }
 
   /* Project Footer */
@@ -146,9 +147,9 @@
   }
 
   #link {
-    font-family: 'DM Serif Display', serif;
-    font-size: 1.5em;
-    color: #a8a8a8;
+    font-family: 'Marcellus', serif;
+    font-size: 2em;
+    color: #1f1717;
     cursor: pointer;
     text-decoration: none;
     letter-spacing: 0.03em;
@@ -175,14 +176,14 @@
     position: relative;
     font-family: 'Oxygen', sans-serif;
     font-size: 1em;
-    color: #2c2d36;
+    color: #1f1717;
     font-weight: 700;
     cursor: pointer;
     text-decoration: none;
     padding: 4px; 
     /* border */
     border-style: solid;
-    border-color: #068466;
+    border-color: #7AA0B2;
     border-width: 3px;
     border-bottom: 10;
     border-left: none;
@@ -192,7 +193,7 @@
   }
 
   .proj-link:hover {
-    background-color: #068466;
+    background-color: #7AA0B2;
     color: white;
   }
 }
