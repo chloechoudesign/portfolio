@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link 
+    href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet" />
+    
+    <link rel="stylesheet" type="text/css" href="assets/css/index.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/about.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/proj-lemlem.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/main-nav.css" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="shortcut icon" href="assets/img/favicon.png" />
+    <title>About Me</title>
+  </head>
+
+  <body>
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <div>
+      <a href="index.html">
+        <img src="assets/img/logo.png" id="logo"/>
+      </a>
+    </div>
+
+    <div class="topnav" id="myTopnav">
+      <a href="about.html" class="active">About</a>
+      <a href="index.html">Work</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+
+    <div id="about-container" class="about-text">
+      
+      <div class="small-title">
+        👋 Nice to meet you!
+      </div>
+      
+      <div class="content">
+        <div class="paragraph">
+          I am Chloe. I am a Product Designer based in Orange County, CA. Currently designing at <a href="https://www.jibjab.com/" class="social-link" target="_blank">JibJab</a>.
+        </div>
+        <div class="paragraph">
+          As a product designer, I always knew that design-thinking and problem-solving are important. Making this a priority and to further develop my skillset, I had completed UCI: Division of Continuing Education’s UX/UI bootcamp from April to October 2020 and have been putting those skills in my work to date. To read more about my experiences, check out my
+          <a
+            class="social-link"
+            href="assets/img/index/Chloe_Resume.pdf"
+            target="_blank"
+            >resume</a
+          >!
+        </div>
+        <div class="paragraph">
+          My works represent simple yet meaningful solutions with a focus on user experiences. I am interested in helping build connection between people and product through different visual solutions.
+        </div>
+        <div class="paragraph">
+          When I’m not designing, I enjoy spending my time exploring new cities, practicing latte art, and catching up with friends over a nice cup of coffee ☕️
+        </div>
+        
+        <div class="spacing-50"></div>
+      </div>
+      <div id="about-img-grid">
+        <div class="about-img">
+          <img src="assets/img/about/me-01.jpg" />
+        </div>
+        <div class="about-img">
+          <img src="assets/img/about/me-02.jpg" />
+        </div>
+        <div class="about-img">
+          <img src="assets/img/about/me-03.jpg" />
+        </div>
+      </div>
+
+      <div class="caption">
+        Me, coffee, me + coffee (Oh, and did I mention I love coffee?)
+      </div>
+     
+
+      <!-- Footer -->
+      <div id="footer">
+        <div>
+          <div class="small-title">Thanks for scrolling!</div>
+          <div class="footer-caption">If you're interested in working together, or just saying hello, <a href="mailto: chloechoudesign@gmail.com" class="landing-link">I'd love to chat :)</a></div>
+        </div>
+        <div>
+          <a href="https://www.linkedin.com/in/chloechoudesign/" target="_blank" class="social-link">LinkedIn</a>&nbsp; / &nbsp; 
+          <a href="assets/img/index/Chloe_Resume.pdf" class="social-link" target="_blank">Resume</a>&nbsp; / &nbsp;
+          <a href="https://github.com/chloechoudesign" target="_blank" class="social-link">GitHub</a> 
+        </div>
+      </div>
+    </div>
+
+    <script>
+      // Nav
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="assets/js/script.js"></script>
+  </body>
+</html>

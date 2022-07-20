@@ -152,6 +152,7 @@
     color: #1f1717;
     cursor: pointer;
     text-decoration: none;
+    letter-spacing: 0.03em;
     transition: all .3s ease-in-out;
   }
 
@@ -194,6 +195,16 @@
   .proj-link:hover {
     background-color: #7AA0B2;
     color: white;
+  }
+
+  .award-link {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 1em;
+    color: #1f1717;
+    font-weight: 400;
+    cursor: pointer;
+    text-decoration: underline;
+    
   }
 }
 
