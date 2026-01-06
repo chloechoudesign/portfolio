@@ -1,0 +1,78 @@
+import { Card, CardContent } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import Image from "next/image";
+import { useState } from "react";
+
+export default function StarringYouAICaseStudy() {
+  const [showFull, setShowFull] = useState(false);
+
+  return (
+    <div className="max-w-4xl mx-auto p-6 space-y-8">
+      <h1 className="text-4xl font-bold">Starring You® AI Case Study</h1>
+      <p className="text-lg text-gray-600">A personalized AI experience designed to scale delight, engagement, and subscriptions at JibJab.</p>
+
+      <section>
+        <h2 className="text-2xl font-semibold mt-6">Overview</h2>
+        <p>
+          In 2024, we launched <strong>Starring You® AI</strong> to modernize JibJab’s iconic personalization feature using AI-generated face swapping. We began with an app-first release, iterated quickly, and later expanded to web.
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-2xl font-semibold mt-6">My Role</h2>
+        <ul className="list-disc ml-6">
+          <li>Led UX and product design strategy</li>
+          <li>Collaborated with AI/ML and engineering teams</li>
+          <li>Designed core user flows and interfaces for mobile and web</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 className="text-2xl font-semibold mt-6">Key Challenges</h2>
+        <ul className="list-disc ml-6">
+          <li>Legacy cropping UX was slow and outdated</li>
+          <li>Needed to scale high-quality face swaps across packs</li>
+          <li>Boost conversion without compromising fun</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 className="text-2xl font-semibold mt-6">Process</h2>
+        <ul className="list-decimal ml-6">
+          <li>User research & legacy audit</li>
+          <li>Mobile-first wireframes and prototyping</li>
+          <li>Collaboration with ML to integrate Stable Diffusion</li>
+          <li>Usability testing and iteration</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 className="text-2xl font-semibold mt-6">Core Flows</h2>
+        <ul className="list-disc ml-6">
+          <li>Photo Upload & Auto-Crop</li>
+          <li>Pack Selection & Preview</li>
+          <li>AI-Powered Generation</li>
+          <li>Result Sharing & Download</li>
+          <li>Subscription Upsell</li>
+        </ul>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-4">
+          <div>
+            <h3 className="font-semibold">Upload & Crop</h3>
+            <Image src="/images/upload-crop.png" alt="Upload and crop" width={500} height={300} className="rounded-xl shadow" />
+          </div>
+          <div>
+            <h3 className="font-semibold">Pack Gallery</h3>
+            <Image src="/images/pack-gallery.png" alt="Pack gallery" width={500} height={300} className="rounded-xl shadow" />
+          </div>
+          <div>
+            <h3 className="font-semibold">Preview Template</h3>
+            <Image src="/images/template-preview.png" alt="Template preview" width={500} height={300} className="rounded-xl shadow" />
+          </div>
+          <div>
+            <h3 className="font-semibold">Final Result</h3>
+            <Image src="/images/final-result.png" alt="Final result" width={500} height={300} className="rounded-xl shadow" />
+          </div>
+          <div>
+            <h3 className="font-semibold">Subscription Paywall</h3>
+            <Image src="/images/paywall.png" alt="Subscription paywall" width={500} he
