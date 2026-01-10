@@ -12,11 +12,12 @@
   z-index: 10;
   display: block;
   /* style */
-  font-family: 'DM Serif Display', serif;
+  font-family: 'Marcellus', serif;
+  font-weight: 900;
   font-size: 1.8em;
-  color: #2c2d36;
+  letter-spacing: 0.05em;
+  color: #74A1B7;
   text-decoration: none;
-  letter-spacing: 0.03em;
   height: 90px;
 }
 
@@ -47,11 +48,12 @@
 }
 
 .topnav a:hover {
-  color: #2c2d36;
+  color: #7AA0B2;
+  font-weight: 700;
 }
 
 .topnav a.active {
-  color: #2c2d36;
+  color: #7AA0B2;
   font-weight: 700;
 }
 

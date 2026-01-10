@@ -28,9 +28,9 @@
     font-family: 'Marcellus', serif;
     color: #1f1717;
     letter-spacing: -0.008em;
-    font-size: 5em;
+    font-size: 4.6em;
     font-weight: 400;
-    margin-bottom: 20px;
+    margin-bottom: 20px; 
   }
 
   #prop-line-1 {
@@ -39,6 +39,11 @@
 
   #prop-line-2 {
     margin: 0;
+  }
+
+  #me {
+    width: 80px;
+    height: auto;
   }
 
   .intro {
