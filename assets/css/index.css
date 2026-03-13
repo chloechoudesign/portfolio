@@ -42,7 +42,7 @@
   }
 
   #me {
-    width: 80px;
+    width: 70px;
     height: auto;
   }
 
@@ -146,6 +146,7 @@
     background-color: #7AA0B2;
     color: white;
   }
+
 
   #footer {
     display: flex;
